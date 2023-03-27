@@ -41,8 +41,9 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".SplashScreenActivity"
-            android:exported="true">
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Movie.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

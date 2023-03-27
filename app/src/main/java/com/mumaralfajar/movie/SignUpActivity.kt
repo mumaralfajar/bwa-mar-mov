@@ -3,9 +3,9 @@ package com.mumaralfajar.movie
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class SplashScreenActivity : AppCompatActivity() {
+class SignUpActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_splash_screen)
+        setContentView(R.layout.activity_sign_up)
     }
 }
